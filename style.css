@@ -18,12 +18,36 @@ body{
     display:grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
-    padding: 5px;
+    /* padding: 5px; */
     gap: 2px;
 }
 
 .sidebar{
     height: 100vh;
+}
+
+.sidebar *{
+    border: none;
+}
+
+.sidebar img{
+    width: 3vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .cont{
+    display: flex;
+    align-items: center;
+}
+
+.nav-el,
+.logo,
+.set{
+    display: flex;
+    padding: 2px;
+    gap: 10px;
 }
 
 .content{
