@@ -34,4 +34,27 @@ body{
 
 .main-content{
     grid-row: 2/6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.projects{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+
+.social{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+
+
+.header{
+    display: grid;
+
 }
